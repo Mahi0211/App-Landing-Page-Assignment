@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf");
+}
+
+.font-clashDisplay-bold {
+  @apply font-clashDisplayBold;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Extralight";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Extralight.otf");
+}
+
+.font-clashDisplay-extralight {
+  @apply font-clashDisplayExtraLight;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Light";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Light.otf");
+}
+
+.font-clashDisplay-light {
+  @apply font-clashDisplayLight;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Medium";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Medium.otf");
+}
+
+.font-clashDisplay-medium {
+  @apply font-clashDisplayMedium;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Regular.otf");
+}
+
+.font-clashDisplay-regular {
+  @apply font-clashDisplayRegular;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Semibold";
+  src: url("./assets/font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Semibold.otf");
+}
+
+.font-clashDisplay-semibold {
+  @apply font-clashDisplaySemiBold;
+}
