@@ -3,8 +3,39 @@ import icons from "../icons";
 const Features = () => {
   return (
     <section className="relative flex h-[700px] w-full">
+      {/* gradient 1 */}
+      <img
+        src={icons.ellipse1}
+        alt=""
+        className="absolute bottom-[270px] left-[70px] z-[1] h-[310px] w-[550px]"
+      />
+      <img
+        src={icons.ellipse2}
+        alt=""
+        className="absolute bottom-[350px] left-[50px] z-0 h-[310px] w-[500px]"
+      />
+      {/*  */}
+      {/* gradient 2 */}
+      <img
+        src={icons.ellipse1}
+        alt=""
+        className="absolute bottom-[300px] right-[-250px] z-[1] h-[310px] w-[500px]"
+      />
+      <img
+        src={icons.ellipse2}
+        alt=""
+        className="absolute bottom-[220px] right-[-250px] z-0 h-[310px] w-[500px]"
+      />
+      {/*  */}
+
       <div className="ellipse-container w-1/2">
-        <div className="relative h-[100%]">
+        <div className="relative z-10 h-[100%]">
+          <img
+            src={icons.star}
+            alt=""
+            className="absolute left-[46px] top-[90px] h-[48px] w-[48px] -rotate-45"
+          />
+
           <img
             src={icons.ellipse}
             alt=""
@@ -33,7 +64,7 @@ const Features = () => {
           />
         </div>
       </div>
-      <div className="ml-[30px] mt-[100px] flex w-1/2 flex-col gap-[32px]">
+      <div className="ml-[30px] mt-[100px] flex w-1/2 flex-col gap-[32px] z-10">
         <div className="gap-1">
           <h1 className="font-clashDisplayMedium text-[18px] leading-[28px] tracking-[3px] text-[#FF5555]">
             FEATURES
@@ -50,7 +81,7 @@ const Features = () => {
                 Budgeting Intervals
               </h1>
             </div>
-            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[40%]">
+            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[50%]">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
             </p>
@@ -64,7 +95,7 @@ const Features = () => {
                 Budgeting Intervals
               </h1>
             </div>
-            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[40%]">
+            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[50%]">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
             </p>
@@ -78,7 +109,7 @@ const Features = () => {
                 Budgeting Intervals
               </h1>
             </div>
-            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[40%]">
+            <p className="w-[638px] font-clashDisplayMedium text-[18px] leading-[28px] opacity-[50%]">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
             </p>

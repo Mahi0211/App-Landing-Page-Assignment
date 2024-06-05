@@ -39,8 +39,14 @@ import starround from "./StarRound.png";
 import bell from "./Bell.png";
 import dc from "./DebitCard.png";
 import onhold from "./On Hold.png";
+import star2 from "./Star 7.png"
+import mail from "./mail.png"
+import call from "./call.png"
 
 export default {
+  mail,
+  call,
+  star2,
   mockupstr1,
   ellipse1,
   ellipse2,

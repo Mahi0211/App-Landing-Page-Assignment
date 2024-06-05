@@ -2,7 +2,7 @@ import icons from "../icons";
 
 const Hero = () => {
   return (
-    <section className="max-container relative flex min-h-screen w-full">
+    <section className="max-container relative flex h-[900px] w-full">
       <div className="flex flex-col">
         <div className="pointer-events-none fixed inset-0 z-10 bg-noise-texture mix-blend-overlay"></div>
         <img
@@ -16,6 +16,7 @@ const Hero = () => {
           className="absolute right-[55px] top-[-43px] h-[64px] w-[64px]"
         />
         <div className="relative ml-[175px] mt-[115px] flex h-[292px] w-[618px] flex-col">
+          {/*  */}
           <img
             src={icons.ellipse1}
             alt=""
@@ -26,6 +27,7 @@ const Hero = () => {
             alt=""
             className="absolute bottom-[60px] left-[50px] z-0 h-[310px] w-[500px]"
           />
+          {/*  */}
           <div className="relative z-10">
             <h1 className="h-auto font-clashDisplayBold text-[64px] leading-[64px]">
               Make The Best <br className="block" />
